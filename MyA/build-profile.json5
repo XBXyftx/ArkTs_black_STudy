@@ -1,0 +1,49 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Lenovo\\.ohos\\config\\auto_debug_MyA_com.example.mya_10086000139593308.cer",
+          "storePassword": "0000001B846690AFD328326B564F2648D92B355EC83D67D90DCD28D4034A8750D57E522251AF1BEB07183A",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BB1EDDCF8FAB461B2EBABF81CF217F2E74A594DF2CEB43CFCA89A1D7452ACDEEA8C6AE9B3219111",
+          "profile": "C:\\Users\\Lenovo\\.ohos\\config\\auto_debug_MyA_com.example.mya_10086000139593308.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Lenovo\\.ohos\\config\\auto_debug_MyA_com.example.mya_10086000139593308.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
