@@ -9,11 +9,12 @@ struct Index {
     Row() {
       Column() {
         Text(this.message)
-          .fontSize(50)
+          .fontSize(20)
           .fontWeight(FontWeight.Bold)
       }
-      .width('100%')
+      .width('20%')
+      .height('20%')
     }
-    .height('100%')
+    .height('50%')
   }
 }
