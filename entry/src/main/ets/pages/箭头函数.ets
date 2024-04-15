@@ -5,3 +5,7 @@ let fn = (x:number) =>{
 
 }
 fn(5)
+let fn1 = (x:number,y:number)=>{
+  return x+y
+}
+console.log(''+fn1(20,11))
