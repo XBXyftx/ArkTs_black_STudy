@@ -1,3 +1,9 @@
+function fn(x:number,y?:number) {
+  console.log('函数的参数有',x,y)
+}
+fn(2)
+fn(2,30)
+
 @Entry
 @Component
 struct Index {
