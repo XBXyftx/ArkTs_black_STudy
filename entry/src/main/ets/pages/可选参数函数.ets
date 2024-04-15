@@ -3,3 +3,4 @@ function fn(x:number,y?:number) {
   console.log('函数的参数有',x,y)
 }
 fn(1)
+fn(20,1)
