@@ -1,5 +1,4 @@
 
-
 @Entry
 @Component
 struct Index {
