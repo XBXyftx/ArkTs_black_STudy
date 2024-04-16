@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 @Entry
 @Component
 struct Index {
