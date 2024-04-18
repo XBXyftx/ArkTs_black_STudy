@@ -1,22 +1,26 @@
 @Entry
 @Component
 struct Index {
-  @State message: string = 'Hello World';
-
   build() {
-    Row() {
-      Column() {
-        Text(this.message)
-          .fontSize(20)
-          .fontWeight(FontWeight.Bold)
-          .backgroundImageSize(ImageSize.Auto)
+    Column(){
+      Text('小说简介')
+      Row(){
+        Text('都市')
+          .width(50)
+          .height(30)
+          .backgroundColor(Color.Blue)
+        Text('情感')
+          .width(50)
+          .height(30)
+          .backgroundColor(Color.Pink)
+        Text('生活')
+          .width(50)
+          .height(30)
+          .backgroundColor(Color.Green)
       }
-      .width('20%')
-      .height('20%')
-      .backgroundColor('#ffa014c3')
+      .width('100%')
+      .height(200)
+      .backgroundColor(Color.Orange)
     }
-    .height('100%')
-    .width('100%')
-    .backgroundColor('#ff16c0dc')
   }
 }
