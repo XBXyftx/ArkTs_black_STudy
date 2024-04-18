@@ -73,6 +73,22 @@ struct Index {
       .width('100%')
       .height(200)
       .backgroundColor(Color.Orange)
+
+      Row(){
+        Text('aaaaaaaaaabbbbbbbbbbbbbbbcccccccccccccc')
+          .fontSize(45)
+          .lineHeight(70)
+          .fontColor(Color.White)
+          .decoration({
+            type:TextDecorationType.Underline,
+            color:Color.Yellow
+          })
+          .maxLines(2)
+          .textOverflow({overflow: TextOverflow.Ellipsis})
+
+      }
+      .backgroundColor(Color.Blue)
+      .width('100%')
     }
     .height('100%')
   }
