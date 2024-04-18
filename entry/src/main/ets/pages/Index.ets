@@ -6,6 +6,51 @@ struct Index {
       Text('小说简介')
         .fontSize(60)
         .fontStyle(FontStyle.Italic)
+        .fontWeight(800)
+        .lineHeight(100)
+
+      Row(){
+        Text('以下是小说的简介')
+          .fontSize(25)
+          .lineHeight(40)
+          .width('100%')
+          .height(100)
+          .textAlign(TextAlign.Center)
+          .align(Alignment.Top)
+
+      }
+      .backgroundColor(Color.Grey)
+      .width('100%')
+      .height(200)
+
+      Row(){
+        Text('以下是小说的简介')
+          .fontSize(45)
+          .lineHeight(70)
+          .fontColor(Color.White)
+          .decoration({
+            type:TextDecorationType.LineThrough,
+            color:Color.Yellow
+          })
+
+      }
+      .backgroundColor(Color.Black)
+      .width('100%')
+
+      Row(){
+        Text('以下是小说的简介')
+          .fontSize(45)
+          .lineHeight(70)
+          .fontColor(Color.White)
+          .decoration({
+            type:TextDecorationType.Underline,
+            color:Color.Yellow
+          })
+
+      }
+      .backgroundColor(Color.Blue)
+      .width('100%')
+
       Row(){
         Text('都市')
           .width(120)
@@ -29,5 +74,6 @@ struct Index {
       .height(200)
       .backgroundColor(Color.Orange)
     }
+    .height('100%')
   }
 }
