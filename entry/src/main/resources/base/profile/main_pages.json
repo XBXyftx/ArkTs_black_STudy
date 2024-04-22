@@ -2,6 +2,7 @@
   "src": [
     "pages/Index",
     "pages/picture",
-    "pages/altimage"
+    "pages/altimage",
+    "pages/objectfits"
   ]
 }
