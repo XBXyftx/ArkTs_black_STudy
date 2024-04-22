@@ -10,6 +10,7 @@ struct picture {
         .width(360)
       Image($r('app.media.HA'))
         .width(360)
+        .aspectRatio(3)//控制宽高比
     }
 
   }
