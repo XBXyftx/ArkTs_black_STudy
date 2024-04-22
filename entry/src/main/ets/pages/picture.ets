@@ -8,9 +8,10 @@ struct picture {
         .width(360)
       Image($rawfile('hm.jpg'))
         .width(360)
+        // .aspectRatio(1)
       Image($r('app.media.HA'))
         .width(360)
-        .aspectRatio(3)//控制宽高比
+        .aspectRatio(3)//控制宽高比，常用于正方形，长方形慎用
     }
 
   }
