@@ -18,6 +18,10 @@ struct QQ {
         Image('https://wx2.sinaimg.cn/mw690/006aIaySly1gunia7oifgj60ku0onq4102.jpg')
           .width(70)
           .objectFit(1)
+        Text('真爱就是循环一千遍')
+          .fontSize(14)
+          .lineHeight(40)
+          .fontColor('#9a9a9a')
 
       }
       .width(200)
