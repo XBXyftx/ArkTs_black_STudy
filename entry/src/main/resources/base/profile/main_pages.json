@@ -1,6 +1,7 @@
 {
   "src": [
     "pages/Index",
-    "pages/picture"
+    "pages/picture",
+    "pages/altimage"
   ]
 }
