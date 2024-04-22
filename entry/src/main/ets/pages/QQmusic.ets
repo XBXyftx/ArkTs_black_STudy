@@ -4,11 +4,26 @@ struct QQ {
   build(){
     Column(){
       Column(){
+        Text('我的年度歌手榜单')
+          .lineHeight(30)
+          .fontSize(14)
+          .width('100%')
+          .textAlign(TextAlign.Center)
+          .fontColor('#bebebe')
+        Divider()
+        Text('周杰伦')
+          .fontSize(22)
+          .fontWeight(700)
+          .lineHeight(40)
+        Image('https://wx2.sinaimg.cn/mw690/006aIaySly1gunia7oifgj60ku0onq4102.jpg')
+          .width(70)
+          .objectFit(1)
 
       }
       .width(200)
       .height(200)
       .backgroundColor(Color.White)
+      .position({x:100,y:300})
     }
     .width('100%')
     .height('100%')
