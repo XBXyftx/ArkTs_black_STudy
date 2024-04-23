@@ -23,6 +23,34 @@ struct ssaaabb {
           bottom:70
         })//边距用哪个写哪个就行
 
+      Row(){
+        Text('文字1')
+          .fontColor(Color.White)
+          .backgroundColor(Color.Green)
+          .fontSize(30)
+          .height(50)
+          .width(80)
+          .textAlign(TextAlign.Center)
+          .margin(30)
+
+        Text('文字2')
+          .fontColor(Color.White)
+          .backgroundColor(Color.Gray)
+          .fontSize(30)
+          .height(50)
+          .width(80)
+          .margin({
+            top:60,
+            bottom:10,
+            left:50,
+            right:10
+          })//和padding用法一样
+
+      }
+      .width(300)
+      .height(200)
+      .backgroundColor(Color.Black)
+
     }
   }
 }
