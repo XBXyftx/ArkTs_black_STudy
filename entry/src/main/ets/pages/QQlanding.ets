@@ -16,6 +16,15 @@ struct QQland {
         .fontWeight(700)
 
       Button('QQ登录')
+        .width(300)
+        .fontSize(25)
+        .margin({top:10})
+
+      Button('微信登录')
+        .width(300)
+        .fontSize(25)
+        .margin({top:10})
+        .backgroundColor(Color.Gray)
     }
     .padding(20)
     .width('100%')
