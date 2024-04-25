@@ -95,6 +95,8 @@ struct Justify_Content {
       .height(100)
       .backgroundColor(Color.Pink)
       .justifyContent(FlexAlign.SpaceEvenly)//每个间距都一样
+      .alignItems(VerticalAlign.Top)//交叉轴的对齐方式
+      //这个是交叉轴在垂直方向的属性方法
     }
 
 
