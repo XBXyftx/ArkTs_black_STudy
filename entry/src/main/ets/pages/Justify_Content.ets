@@ -94,7 +94,7 @@ struct Justify_Content {
       .width(300)
       .height(100)
       .backgroundColor(Color.Pink)
-      .justifyContent(FlexAlign.SpaceAround)
+      .justifyContent(FlexAlign.SpaceEvenly)//每个间距都一样
     }
 
 
