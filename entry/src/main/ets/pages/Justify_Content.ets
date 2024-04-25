@@ -72,6 +72,29 @@ struct Justify_Content {
       .height(200)
       .backgroundColor(Color.Pink)
       .justifyContent(FlexAlign.SpaceAround)//两侧，也就是上下各加相等空间
+
+      Row(){
+
+        Text('子组件')
+          .width(50)
+          .height(30)
+          .backgroundColor(Color.Orange)
+
+        Text('子组件')
+          .width(50)
+          .height(30)
+          .backgroundColor(Color.Orange)
+
+        Text('子组件')
+          .width(50)
+          .height(30)
+          .backgroundColor(Color.Orange)
+
+      }
+      .width(300)
+      .height(100)
+      .backgroundColor(Color.Pink)
+      .justifyContent(FlexAlign.SpaceAround)
     }
 
 
