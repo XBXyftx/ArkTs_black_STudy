@@ -12,6 +12,7 @@
     "pages/border_radius",
     "pages/backImage",
     "pages/Line_Row",
-    "pages/Justify_Content"
+    "pages/Justify_Content",
+    "pages/Layout_Weight"
   ]
 }
