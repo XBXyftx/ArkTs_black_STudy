@@ -22,11 +22,17 @@ struct border_radius {
           bottomRight:120
         })
 
-      Text('正圆')
+      Text('正圆')//只有正方形可以变成正圆，取边长的二分之一作为圆弧半径
         .width(100)
         .height(100)
         .backgroundColor(Color.Pink)
         .borderRadius(50)
+
+      Text('胶囊')//取短边的二分之一作为圆弧半径
+        .width(100)
+        .height(50)
+        .backgroundColor(Color.Orange)
+        .borderRadius(25)
 
     }
   }
