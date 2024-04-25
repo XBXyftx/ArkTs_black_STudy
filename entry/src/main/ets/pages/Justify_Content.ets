@@ -10,11 +10,13 @@ struct Justify_Content {
           .width(80)
           .height(30)
           .backgroundColor(Color.Orange)
+          .alignSelf(ItemAlign.Center)
 
         Text('子组件')
           .width(80)
           .height(30)
           .backgroundColor(Color.Orange)
+          .alignSelf(ItemAlign.End)
 
         Text('子组件')
           .width(80)
@@ -26,6 +28,7 @@ struct Justify_Content {
       .height(200)
       .backgroundColor(Color.Pink)
       .justifyContent(FlexAlign.Center)
+      .alignItems(HorizontalAlign.Start)//这是交叉轴在水平方向的对齐方式枚举类型
 
       Column(){
 
@@ -38,6 +41,7 @@ struct Justify_Content {
           .width(80)
           .height(30)
           .backgroundColor(Color.Orange)
+          .alignSelf(ItemAlign.Stretch)
 
         Text('子组件')
           .width(80)
