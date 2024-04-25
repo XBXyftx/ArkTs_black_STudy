@@ -91,6 +91,7 @@ struct Justify_Content {
           .height(30)
           .backgroundColor(Color.Orange)
           .alignSelf(ItemAlign.Stretch)
+        //这是拉伸效果，交叉轴方向的长度与父组件的长度一致
 
       }
       .width(300)
