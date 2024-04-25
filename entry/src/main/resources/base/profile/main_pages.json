@@ -10,6 +10,7 @@
     "pages/QQlanding",
     "pages/BOder",
     "pages/border_radius",
-    "pages/backImage"
+    "pages/backImage",
+    "pages/Line_Row"
   ]
 }
