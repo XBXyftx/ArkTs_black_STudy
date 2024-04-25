@@ -84,11 +84,13 @@ struct Justify_Content {
           .width(50)
           .height(30)
           .backgroundColor(Color.Orange)
+          .alignSelf(ItemAlign.Center)//调节单个交叉轴对齐方式
 
         Text('子组件')
           .width(50)
           .height(30)
           .backgroundColor(Color.Orange)
+          .alignSelf(ItemAlign.Stretch)
 
       }
       .width(300)
