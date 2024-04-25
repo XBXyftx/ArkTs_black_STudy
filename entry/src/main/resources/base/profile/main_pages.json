@@ -9,6 +9,7 @@
     "pages/padingg",
     "pages/QQlanding",
     "pages/BOder",
-    "pages/border_radius"
+    "pages/border_radius",
+    "pages/backImage"
   ]
 }
