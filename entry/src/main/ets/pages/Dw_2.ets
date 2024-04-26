@@ -47,7 +47,7 @@ struct Dw_2{
           Row(){
             //右侧点赞数
             Image($rawfile('ic_public_thumbsup.svg'))
-              .size({width:18})
+              .size({width:19})
               .onClick(()=>{this.num++})
 
             Text(JSON.stringify(this.num))
