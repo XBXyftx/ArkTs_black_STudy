@@ -1,7 +1,7 @@
 @Entry
 @Component
 struct Dw_2{
-  @State num : number = 0
+  @State num : number = 0  //点赞计数器
   build(){
     Column(){
       //根组件
@@ -48,8 +48,9 @@ struct Dw_2{
             //右侧点赞数
             Image($rawfile('ic_public_thumbsup.svg'))
               .size({width:18})
+              .onClick(()=>{this.num++})
 
-            Text()
+            Text(JSON.stringify(this.num))
 
           }
         }
