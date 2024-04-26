@@ -2,6 +2,7 @@
 @Component
 struct DeWu {
   build(){
+    //从外到内，从上到下，从左到右
     Column(){
       //根组件
       Row(){
