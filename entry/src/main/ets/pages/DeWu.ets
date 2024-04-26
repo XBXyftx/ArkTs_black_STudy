@@ -10,7 +10,7 @@ struct DeWu {
         Column({space:10}){
           //左侧文字容器
           Text('玩一玩')
-            .fontSize(35)
+            .fontSize(25)
             .fontWeight(800)
 
           Row(){
@@ -18,18 +18,27 @@ struct DeWu {
             Text('签到兑奖品|')
               .fontColor('#ffa5a3a3')
               .fontWeight(600)
+              .fontSize(14)
 
             Text('超多大奖 超好玩')
               .fontColor('#ffa5a3a3')
               .fontWeight(450)
+              .fontSize(14)
           }
 
         }
         .alignItems(HorizontalAlign.Start)
         //上下两行文字左对齐
 
-        Row(){
+        Row({space:18}){
           //右侧图片和箭头容器
+          Image($rawfile('DW.png'))
+            .size({width:90})
+            .borderRadius(20)
+
+          Image($rawfile('ic_public_arrow_right.svg'))
+            .size({width:30})
+            .fillColor(Color.Gray)
 
         }
 
