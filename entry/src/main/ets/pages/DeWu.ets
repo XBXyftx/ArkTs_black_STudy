@@ -46,8 +46,8 @@ struct DeWu {
       .width('100%')
       .height(150)
       .backgroundColor(Color.White)
-      .borderRadius(8)
-      .padding(10)
+      .borderRadius(20)
+      .padding(15)
       .justifyContent(FlexAlign.SpaceBetween)//主轴方向对齐方式
       //图片和文字分别靠左靠右分开
     }
