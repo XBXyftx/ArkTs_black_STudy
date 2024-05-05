@@ -35,7 +35,7 @@ struct Dog_VIP {
 
             .width(60)
             .textAlign(TextAlign.Center)
-            .borderRadius({topLeft:20,bottomRight:20})
+            .borderRadius({topLeft:15,bottomRight:15})
         }
         .position({x:0})
         .backgroundColor('#ffeebea7')
