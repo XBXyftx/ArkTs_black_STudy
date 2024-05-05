@@ -17,6 +17,7 @@ struct Dog_VIP {
             .borderRadius(20)
             .padding(6)
             .position({x:15})
+            .fillColor(Color.White)
 
           Text('飞狗MOCO')
             .fontSize(30)
