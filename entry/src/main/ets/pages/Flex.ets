@@ -3,29 +3,34 @@
 struct Flexing {
   build(){
     Column({space:10}){
-      Flex({justifyContent:FlexAlign.SpaceBetween,alignItems:ItemAlign.Center}){
+      Flex({}){
         //弹性布局,子组件自动压缩在一行放下
         //默认不换行，加wrap参数让其换行
         //默认主轴方向是水平，交叉轴数值
+
         Text('1')
-          .width(50)
           .height(50)
           .fontSize(20)
           .backgroundColor(Color.Orange)
+          .flexGrow(2)
+
 
 
         Text('2')
-          .width(50)
           .height(50)
           .fontSize(20)
-          .backgroundColor(Color.Orange)
+          .backgroundColor(Color.Blue)
+          .flexGrow(1)
 
 
         Text('3')
-          .width(50)
           .height(50)
           .fontSize(20)
-          .backgroundColor(Color.Orange)
+          .backgroundColor(Color.Yellow)
+          .flexGrow(1)
+
+
+
 
 
       }
@@ -52,7 +57,8 @@ struct Flexing {
           .width(100)
           .height(50)
           .fontSize(30)
-          .backgroundColor(Color.Orange)
+          .backgroundColor(Color.Yellow)
+          .position({x:20,y:30})
 
 
       }
