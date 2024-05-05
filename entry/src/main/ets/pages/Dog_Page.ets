@@ -27,15 +27,20 @@ struct Dog_VIP {
         }
         .width(300)
 
-        Text('VIP')
-          .backgroundColor(Color.Yellow)
-          .fontStyle(FontStyle.Italic)
-          .fontSize(28)
-          .position({x:0})
-          .width(60)
-          .textAlign(TextAlign.Center)
-          .borderRadius({topLeft:20,bottomRight:20})
+        Row(){
+          Text('VIP')
+            .backgroundColor(Color.Orange)
+            .fontStyle(FontStyle.Italic)
+            .fontSize(28)
 
+            .width(60)
+            .textAlign(TextAlign.Center)
+            .borderRadius({topLeft:20,bottomRight:20})
+        }
+        .position({x:0})
+        .backgroundColor('#ffeebea7')
+        .borderRadius({topLeft:20,bottomRight:20})
+        .padding(4.5)
 
       }
       .width(300)
