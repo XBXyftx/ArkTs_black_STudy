@@ -5,7 +5,7 @@ struct Flexing {
     Column({space:10}){
       Flex({justifyContent:FlexAlign.SpaceBetween,alignItems:ItemAlign.Center}){
         //弹性布局
-        //自动换行
+        //默认不换行，加wrap参数让其换行
         //默认主轴方向是水平，交叉轴数值
         Text('111')
           .width(50)
