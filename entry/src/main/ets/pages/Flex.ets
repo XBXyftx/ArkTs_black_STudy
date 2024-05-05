@@ -4,24 +4,24 @@ struct Flexing {
   build(){
     Column({space:10}){
       Flex({justifyContent:FlexAlign.SpaceBetween,alignItems:ItemAlign.Center}){
-        //弹性布局
+        //弹性布局,子组件自动压缩在一行放下
         //默认不换行，加wrap参数让其换行
         //默认主轴方向是水平，交叉轴数值
-        Text('111')
+        Text('1')
           .width(50)
           .height(50)
           .fontSize(20)
           .backgroundColor(Color.Orange)
 
 
-        Text('111')
+        Text('2')
           .width(50)
           .height(50)
           .fontSize(20)
           .backgroundColor(Color.Orange)
-          .alignSelf(ItemAlign.Stretch)
 
-        Text('111')
+
+        Text('3')
           .width(50)
           .height(50)
           .fontSize(20)
@@ -58,6 +58,56 @@ struct Flexing {
       }
       .width(300)
       .height(300)
+      .backgroundColor(Color.Pink)
+
+      Flex({wrap:FlexWrap.Wrap,justifyContent:FlexAlign.SpaceBetween}){
+        //弹性布局,子组件自动压缩在一行放下
+        //默认不换行，加wrap参数让其换行
+        //默认主轴方向是水平，交叉轴数值
+        Text('1')
+          .width(80)
+          .height(50)
+          .fontSize(20)
+          .backgroundColor(Color.Orange)
+
+
+        Text('2')
+          .width(80)
+          .height(50)
+          .fontSize(20)
+          .backgroundColor(Color.Orange)
+
+
+        Text('3')
+          .width(80)
+          .height(50)
+          .fontSize(20)
+          .backgroundColor(Color.Orange)
+
+        Text('4')
+          .width(80)
+          .height(50)
+          .fontSize(20)
+          .backgroundColor(Color.Orange)
+
+
+        Text('5')
+          .width(80)
+          .height(50)
+          .fontSize(20)
+          .backgroundColor(Color.Orange)
+
+
+        Text('6')
+          .width(80)
+          .height(50)
+          .fontSize(20)
+          .backgroundColor(Color.Orange)
+
+
+      }
+      .width(300)
+      .height(250)
       .backgroundColor(Color.Pink)
     }
   }
