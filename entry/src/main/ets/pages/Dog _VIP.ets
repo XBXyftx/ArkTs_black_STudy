@@ -1,6 +1,6 @@
 @Entry
 @Component
-struct Dog_VIP{
+struct Dog_VIP {
   build(){
     Column(){
       //根组件
