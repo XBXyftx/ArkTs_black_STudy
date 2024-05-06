@@ -59,6 +59,10 @@ struct Bilibili_Card {
               .fontColor('#ffdb7901')
               .position({x:12})
 
+            Image($rawfile('more.svg'))
+              .width(20)
+              .position({x:270,y:3})
+
 
           }
           .width(300)
