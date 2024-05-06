@@ -28,6 +28,7 @@ struct Dog_VIP {
         .width(300)
 
         Row(){
+          //左上角的VIP覆盖字样组件
           Text('VIP')
             .backgroundColor(Color.Orange)
             .fontStyle(FontStyle.Italic)
