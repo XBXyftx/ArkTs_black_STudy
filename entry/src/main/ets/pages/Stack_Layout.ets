@@ -22,6 +22,8 @@ struct Stack_Layout {
       .width(300)
       .height(250)
 
+
+
       Stack({alignContent:Alignment.TopStart}){
         //alignContent可以改对齐方式
         //还是用zIndex来控制上下层
