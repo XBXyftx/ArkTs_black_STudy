@@ -201,6 +201,8 @@ struct List_Learn {
             .backgroundColor(Color.Pink)
         }
       }
+      .listDirection(Axis.Horizontal)
+
     }
   }
 }
