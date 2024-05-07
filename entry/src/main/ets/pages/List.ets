@@ -8,8 +8,71 @@ struct List_Learn {
         ListItem(){
           Text('文字')
             .width(100)
+            .height(100)
+            .backgroundColor(Color.Orange)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
             .height(50)
             .backgroundColor(Color.Pink)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(50)
+            .backgroundColor(Color.Pink)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(50)
+            .backgroundColor(Color.Pink)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(50)
+            .backgroundColor(Color.Green)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(50)
+            .backgroundColor(Color.Pink)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(50)
+            .backgroundColor(Color.Blue)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(100)
+            .backgroundColor(Color.Pink)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(50)
+            .backgroundColor(Color.Pink)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(50)
+            .backgroundColor(Color.Red)
         }
 
         ListItem(){
@@ -43,8 +106,92 @@ struct List_Learn {
         ListItem(){
           Text('文字')
             .width(100)
+            .height(100)
+            .backgroundColor(Color.Pink)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
             .height(50)
             .backgroundColor(Color.Pink)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(50)
+            .backgroundColor(Color.Pink)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(50)
+            .backgroundColor(Color.Pink)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(50)
+            .backgroundColor(Color.Transparent)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(50)
+            .backgroundColor(Color.Pink)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(50)
+            .backgroundColor(Color.Pink)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(100)
+            .backgroundColor(Color.Pink)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(50)
+            .backgroundColor(Color.Pink)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(50)
+            .backgroundColor(Color.Pink)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(50)
+            .backgroundColor(Color.Yellow)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(50)
+            .backgroundColor(Color.Pink)
+        }
+
+        ListItem(){
+          Text('文字')
+            .width(100)
+            .height(50)
+            .backgroundColor(Color.Gray)
         }
 
         ListItem(){
