@@ -21,6 +21,7 @@
     "pages/Dog_Page",
     "pages/Z_Index",
     "pages/Stack_Layout",
-    "pages/Bilibili_Card"
+    "pages/Bilibili_Card",
+    "pages/List"
   ]
 }
