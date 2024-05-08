@@ -737,7 +737,7 @@ struct List_Learn {
       // .listDirection(Axis.Horizontal)//控制主轴方向
       .lanes(3)//行数
       .width(400)
-      .scrollBar(BarState.On)//控制滚动条
+      .scrollBar(BarState.Auto)//控制滚动条
 
     }
   }
