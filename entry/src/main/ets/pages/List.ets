@@ -4,7 +4,7 @@ struct List_Learn {
   build(){
     Column(){
       //根组件
-      List(){
+      List({space:10}){
         ListItem(){
           Text('文字')
             .width(100)
@@ -733,8 +733,10 @@ struct List_Learn {
             .backgroundColor(Color.Pink)
         }
       }
+      .backgroundColor(Color.Gray)
       // .listDirection(Axis.Horizontal)//控制主轴方向
-      .lanes(2)//行数
+      .lanes(3)//行数
+      .width(400)
 
     }
   }
