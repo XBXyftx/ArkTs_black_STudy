@@ -738,6 +738,12 @@ struct List_Learn {
       .lanes(3)//行数
       .width(400)
       .scrollBar(BarState.Auto)//控制滚动条
+      .divider({
+        strokeWidth:2,
+        color:Color.White,
+        startMargin:20,
+        endMargin:50
+      })//分割线属性
 
     }
   }
