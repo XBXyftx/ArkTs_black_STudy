@@ -741,9 +741,10 @@ struct List_Learn {
       .divider({
         strokeWidth:2,
         color:Color.White,
-        startMargin:20,
-        endMargin:50
+        startMargin:10,
+        endMargin:40
       })//分割线属性
+      .alignListItem(ListItemAlign.End)//交叉轴对齐方式
 
     }
   }
