@@ -735,7 +735,7 @@ struct List_Learn {
       }
       .backgroundColor(Color.Gray)
       // .listDirection(Axis.Horizontal)//控制主轴方向
-      .lanes(3)//行数
+      .lanes(3)//行数，API9只支持一个参数
       .width(400)
       .scrollBar(BarState.Auto)//控制滚动条
       .divider({
