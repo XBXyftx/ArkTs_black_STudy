@@ -47,14 +47,18 @@ struct Gradient{
           })
 
         Text('给按钮加高光')
-          .fontSize(20)
+          .fontSize(14)
+          .fontColor(Color.Orange)
           .radialGradient({
-            center:[20,5],
-            radius:40,
-            colors:[['rgba(255,255,255,0)',0],['rgba(255, 255, 255, 0.03)',1]]
+            center:[30,30],
+            radius:60,
+            colors:[
+              ['#8cfefefe',0],
+              ['#59000000',1]
+            ]
           })
           .width(100)
-          .height(200)
+          .height(100)
 
       }
     }
