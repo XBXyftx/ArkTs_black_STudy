@@ -1,3 +1,4 @@
+import router from '@ohos.router'
 
 @Entry
 @Component
@@ -92,5 +93,10 @@ struct Index {
       .width('100%')
     }
     .height('100%')
+    .onClick(()=>{
+      router.pushUrl({
+        url:"pages/State_Styles"
+      })
+    })
   }
 }

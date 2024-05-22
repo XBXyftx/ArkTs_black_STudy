@@ -1,0 +1,30 @@
+@Entry
+@Component
+struct State_Styles{
+  build(){
+    Column(){
+      Text('文字')
+        .width(200)
+        .height(300)
+        .linearGradient({colors:[[Color.Pink,0],[Color.Orange,0.5],[Color.Red,1]]})
+        .textAlign(TextAlign.Center)
+        .fontSize(30)
+        .fontWeight(700)
+        .shadow({
+          radius:60,
+          color:'rgba(0,0,0,0.5)',
+          offsetX:70,
+          offsetY:70
+        })
+        .stateStyles({
+          pressed:{
+            .linearGradient({colors:[[Color.Gray,0],[Color.Black,0.5],[Color.Gray,1]]})
+          }
+        })
+    }
+    .padding(10)
+    .width('100%')
+    .height('100%')
+    .justifyContent(FlexAlign.Center)
+    }
+}

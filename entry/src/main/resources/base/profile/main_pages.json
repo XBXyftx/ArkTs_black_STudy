@@ -25,6 +25,7 @@
     "pages/List",
     "pages/jingdong",
     "pages/Gradient",
-    "pages/shadow"
+    "pages/shadow",
+    "pages/State_Styles"
   ]
 }
