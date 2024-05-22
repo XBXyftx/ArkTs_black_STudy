@@ -1,0 +1,40 @@
+@Entry
+@Component
+struct Animations {
+  build(){
+    Column(){
+      Text('文字')
+        .width(200)
+        .height(300)
+        .linearGradient({colors:[[Color.Pink,0],[Color.Orange,0.5],[Color.Red,1]]})
+        .textAlign(TextAlign.Center)
+        .fontSize(30)
+        .fontWeight(700)
+        .borderRadius(0)
+        .shadow({
+          radius:60,
+          color:'rgba(0,0,0,0.5)',
+          offsetX:70,
+          offsetY:70
+        })
+        .stateStyles({
+          pressed:{
+            .linearGradient({colors:[[Color.Black,0],[Color.White,0.5],[Color.Black,1]]})
+            .borderRadius(100)
+            .width(300)
+            .height(200)
+          }
+        })
+        .animation({
+          duration:1000,//动画时长
+          curve:Curve.EaseIn,//动画曲线
+          // delay:500//延迟
+        })
+
+    }
+    .justifyContent(FlexAlign.Center)
+    .alignItems(HorizontalAlign.Center)
+    .width('100%')
+    .height('100%')
+  }
+}
