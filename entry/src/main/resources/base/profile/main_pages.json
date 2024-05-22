@@ -23,6 +23,7 @@
     "pages/Stack_Layout",
     "pages/Bilibili_Card",
     "pages/List",
-    "pages/jingdong"
+    "pages/jingdong",
+    "pages/LinearGradient"
   ]
 }
