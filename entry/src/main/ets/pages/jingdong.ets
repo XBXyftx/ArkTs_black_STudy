@@ -69,10 +69,10 @@ struct jingdong {
           //图片和文字
           Column({space:3}){
             //最外层上下组件
-            Image($rawfile('Buy_car.svg'))
+            Image($rawfile('Phone_Pay.svg'))
               .height(40)
 
-            Text('京东买车')
+            Text('手机充值')
               .fontColor('#787878')
               .fontSize(14)
           }
@@ -84,10 +84,10 @@ struct jingdong {
           //图片和文字
           Column({space:3}){
             //最外层上下组件
-            Image($rawfile('Buy_car.svg'))
+            Image($rawfile('international.svg'))
               .height(40)
 
-            Text('京东买车')
+            Text('京东国际')
               .fontColor('#787878')
               .fontSize(14)
           }
