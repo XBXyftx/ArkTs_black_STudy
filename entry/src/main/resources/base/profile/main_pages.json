@@ -24,6 +24,7 @@
     "pages/Bilibili_Card",
     "pages/List",
     "pages/jingdong",
-    "pages/Gradient"
+    "pages/Gradient",
+    "pages/shadow"
   ]
 }
