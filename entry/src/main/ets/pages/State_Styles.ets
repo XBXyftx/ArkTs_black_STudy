@@ -18,7 +18,7 @@ struct State_Styles{
         })
         .stateStyles({
           pressed:{
-            .linearGradient({colors:[[Color.Gray,0],[Color.Black,0.5],[Color.Gray,1]]})
+            .linearGradient({colors:[[Color.White,0],[Color.Gray,0.5],[Color.Black,1]]})
           }
         })
     }
