@@ -35,7 +35,7 @@ struct Gradient{
           })
       }
 
-      Column(){
+      Column({space:10}){
         Text('文字')
           .width(100)
           .height(200)
@@ -46,7 +46,8 @@ struct Gradient{
             colors:[[Color.Red,0.2],[Color.Blue,0.9]]
           })
 
-        Button()
+        Button('给按钮加高光')
+          .fontSize(20)
       }
     }
 
