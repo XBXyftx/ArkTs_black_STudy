@@ -27,6 +27,7 @@
     "pages/Gradient",
     "pages/shadow",
     "pages/State_Styles",
-    "pages/Translate"
+    "pages/Translate",
+    "pages/Translate_right_side"
   ]
 }

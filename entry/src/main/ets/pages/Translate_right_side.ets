@@ -1,0 +1,22 @@
+@Entry
+@Component
+struct T_R_S{
+  build(){
+    Column(){
+      Text('长夜临光')
+        .fontSize(30)
+        .width(200)
+        .height(50)
+        .fontColor(Color.White)
+        .linearGradient({
+          colors:[[Color.Blue,0.1],[Color.Red,0.9]],
+          direction:GradientDirection.Right
+        })
+        .textAlign(TextAlign.Center)
+        .position({x:'100%',y:200})
+        .translate({x:-200})
+    }
+    .width('100%')
+    .height('100%')
+  }
+}
