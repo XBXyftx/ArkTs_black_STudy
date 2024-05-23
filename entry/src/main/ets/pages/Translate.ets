@@ -19,7 +19,7 @@ struct Translate {
         })
         .translate({x:0,y:0})//位移可以配合动画效果
         .stateStyles({
-          pressed:{
+          clicked:{
             .translate({x:50,y:50})
           }
         })
