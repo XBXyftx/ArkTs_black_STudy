@@ -26,6 +26,7 @@
     "pages/jingdong",
     "pages/Gradient",
     "pages/shadow",
-    "pages/State_Styles"
+    "pages/State_Styles",
+    "pages/Translate"
   ]
 }

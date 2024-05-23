@@ -1,0 +1,35 @@
+@Entry
+@Component
+struct Translate {
+  build(){
+    Column(){
+      Text('文字')
+        .width(200)
+        .height(300)
+        .linearGradient({colors:[[Color.Pink,0],[Color.Orange,0.5],[Color.Red,1]]})
+        .textAlign(TextAlign.Center)
+        .fontSize(30)
+        .fontWeight(700)
+        .borderRadius(0)
+        .shadow({
+          radius:60,
+          color:'rgba(0,0,0,0.5)',
+          offsetX:70,
+          offsetY:70
+        })
+        .translate({x:0,y:0})//位移可以配合动画效果
+        .stateStyles({
+          pressed:{
+            .translate({x:50,y:50})
+          }
+        })
+        .animation({
+          duration:600
+        })
+    }
+    .width('100%')
+    .height('100%')
+    .alignItems(HorizontalAlign.Center)
+    .justifyContent(FlexAlign.Center)
+  }
+}
