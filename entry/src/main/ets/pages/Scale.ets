@@ -24,6 +24,26 @@ struct Scale{
         .animation({
           duration:1000
         })
+
+      Text('文字')
+        .width(100)
+        .height(100)
+        .margin(90)
+        .backgroundColor(Color.Pink)
+
+        .stateStyles({
+          normal:{
+            .rotate({
+              angle:0
+            })
+          },
+          pressed:{
+            .rotate({angle:100})
+          }
+        })
+        .animation({
+          duration:1000
+        })
     }
   }
 }
