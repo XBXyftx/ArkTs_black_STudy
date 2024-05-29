@@ -5,14 +5,25 @@ struct Scale{
     Column(){
       //根组件
       Text('文字')
-        .width(200)
+        .width(100)
         .height(100)
-        .margin(20)
+        .margin(90)
         .backgroundColor(Color.Pink)
-        // .scale({
-        //   x:1.2,
-        //   y:1.5//x和y轴的缩放比例默认1
-        // })
+
+        .stateStyles({
+          normal:{
+            .scale({
+              x:1,
+              y:1//x和y轴的缩放比例默认1
+            })
+          },
+          pressed:{
+            .scale({x:1.5,y:1})
+          }
+        })
+        .animation({
+          duration:1000
+        })
     }
   }
 }
