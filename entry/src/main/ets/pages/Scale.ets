@@ -9,10 +9,10 @@ struct Scale{
         .height(100)
         .margin(20)
         .backgroundColor(Color.Pink)
-        .scale({
-          x:1.2,
-          y:1.5//x和y轴的缩放比例默认1
-        })
+        // .scale({
+        //   x:1.2,
+        //   y:1.5//x和y轴的缩放比例默认1
+        // })
     }
   }
 }
