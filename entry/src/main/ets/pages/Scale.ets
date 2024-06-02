@@ -14,7 +14,7 @@ struct Scale{
           normal:{
             .scale({
               x:1,
-              y:1//x和y轴的缩放比例默认1
+              y:1//x和y轴的缩放比例默认1！！！！
             })
           },
           pressed:{
