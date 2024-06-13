@@ -1,4 +1,4 @@
-let name:string = '小明'
+
 
 @Entry
 @Component
