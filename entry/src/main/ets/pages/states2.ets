@@ -4,6 +4,7 @@
 struct states2 {
   @State hi: string = 'hello'
   @State flex: boolean = true
+  @State op: number = 1
 
   build() {
     Column() {
@@ -23,8 +24,16 @@ struct states2 {
       Column() {
         Image($rawfile('redpack.svg'))
           .width(200)
-          .margin(20)
+
+        Image($rawfile('close.svg'))
+          .width(40)
+          .position({ x: -20 })
+          .onClick(()=>{
+            this.op=0
+          })
       }
+      .margin(20)
+      .opacity(this.op)
 
     }
   }
