@@ -30,6 +30,7 @@
     "pages/Translate",
     "pages/Translate_right_side",
     "pages/Strings",
-    "pages/states2"
+    "pages/states2",
+    "pages/meituan_buy_car"
   ]
 }
