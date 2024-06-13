@@ -10,6 +10,8 @@ console.log('字符串转数字',Number(aa)+Number(bb))
 console.log('字符串转数字',Number(cc))//Log: 字符串转数字 NaN
 console.log('字符串转数字',parseInt(cc))//Log: 字符串转数字 1
 console.log('字符串转数字',parseInt(dd))//Log: 字符串转数字 NaN
+console.log('数字转字符串',age.toString())
+
 
 
 @Entry
