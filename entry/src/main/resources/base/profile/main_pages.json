@@ -29,6 +29,7 @@
     "pages/State_Styles",
     "pages/Translate",
     "pages/Translate_right_side",
-    "pages/Strings"
+    "pages/Strings",
+    "pages/states"
   ]
 }
