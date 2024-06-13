@@ -32,6 +32,7 @@
     "pages/Strings",
     "pages/states2",
     "pages/meituan_buy_car",
-    "pages/shuzu"
+    "pages/shuzu",
+    "pages/padingtest"
   ]
 }
