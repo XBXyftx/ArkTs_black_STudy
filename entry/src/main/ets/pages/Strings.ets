@@ -1,4 +1,4 @@
-let name:string = '小明'
+var name:string = '小明'
 console.log('学生简介','我的名字是'+name)//
 let age:number = 19
 let age2 : number = 15.8
