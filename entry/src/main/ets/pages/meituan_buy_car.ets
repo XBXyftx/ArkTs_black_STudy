@@ -112,6 +112,7 @@ struct Index {
             .fontSize(14)
             // 减的钱 = （原价-现价） * 数量
             Text(`共减￥${ ((this.yuanjia - this.xianjia)*this.shuliang).toFixed(2) }`)
+              //此处用的是反引号而不是正引号，tofixed（2）代表的是保留两位小数
               .fontColor('#fd4104')
               .fontSize(12)
           }
