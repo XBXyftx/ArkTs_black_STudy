@@ -16,7 +16,7 @@ struct padingtest{
       }
       .width(100)
       .height(100)
-      .padding({top:20})
+      // .padding({top:20})
       .backgroundColor(Color.Black)
     }
   }
