@@ -12,6 +12,8 @@ struct padingtest{
       .padding(30)
       .backgroundColor(Color.Blue)
       .margin(20)
+
+
       Column(){
         Text('width100 height100')
           .fontColor(Color.White)
