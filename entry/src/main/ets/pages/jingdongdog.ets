@@ -110,13 +110,14 @@ struct Index {
                 .fontSize(14)
                 .fontWeight(600)
             }
+            .margin({left:10})
           }
 
         }
         .width('100%')
         .backgroundColor(Color.White)
 
-        .padding({ bottom: 8, left: 10, right: 10, top: 5 })
+        .padding({ bottom: 10, left: 10, right: 10, top: 8 })
         .alignItems(VerticalAlign.Center)
 
       }
