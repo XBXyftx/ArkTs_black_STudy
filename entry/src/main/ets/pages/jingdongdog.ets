@@ -14,7 +14,7 @@ struct Index {
         if (this.num <= 0) {
           Row() {
             //左侧铃铛和文字
-            Row({ space: 3 }) {
+            Row({ space: 6 }) {
               Image($rawfile('ic_lingdang.svg'))
                 .width(12)
                 .fillColor('#de6a1c')
@@ -33,7 +33,7 @@ struct Index {
 
           }
           .width('100%')
-          .padding({ left: 10, right: 10, bottom: 5, top: 5 })
+          .padding({ left: 15, right: 20, bottom: 8, top: 8 })
           .justifyContent(FlexAlign.SpaceBetween)
           .backgroundColor('#fbf9da')
         }
