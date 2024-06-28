@@ -1,6 +1,6 @@
 @Entry
 @Component
-struct Index {
+struct Jingdongdog {
   @State num: number = 0;
 
   build() {
