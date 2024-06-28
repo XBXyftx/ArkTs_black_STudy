@@ -1,6 +1,8 @@
 @Entry
 @Component
 struct Index {
+  @State num:number=0;
+
   build() {
     //根组件
     Column(){
