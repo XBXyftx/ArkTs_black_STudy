@@ -1,4 +1,4 @@
-var names :string[] = ['小红','小明','小刚']
+let names :string[] = ['小红','小明','小刚']
 console.log('name'+names)
 names[1]='小小明'
 console.log('name'+names)
