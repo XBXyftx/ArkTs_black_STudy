@@ -1,17 +1,25 @@
 import router from '@ohos.router'
 
+console.log('--华为Mate新品上市--')
+let name: string[] = ['Mate60 RS', 'Mate60 Pro', 'Mate60', 'Mate60 Pro+']
+let cost: number[] = [11999, 7399, 6899, 8999]
+for (let i = 0; i < 4; i++) {
+  console.log()
+}
+
+
 @Entry
 @Component
 struct Index {
   build() {
-    Column(){
+    Column() {
       Text('小说简介')
         .fontSize(60)
         .fontStyle(FontStyle.Italic)
         .fontWeight(800)
         .lineHeight(100)
 
-      Row(){
+      Row() {
         Text('以下是小说的简介')
           .fontSize(25)
           .lineHeight(40)
@@ -25,35 +33,35 @@ struct Index {
       .width('100%')
       .height(200)
 
-      Row(){
+      Row() {
         Text('以下是小说的简介')
           .fontSize(45)
           .lineHeight(70)
           .fontColor(Color.White)
           .decoration({
-            type:TextDecorationType.LineThrough,
-            color:Color.Yellow
+            type: TextDecorationType.LineThrough,
+            color: Color.Yellow
           })
 
       }
       .backgroundColor(Color.Black)
       .width('100%')
 
-      Row(){
+      Row() {
         Text('以下是小说的简介')
           .fontSize(45)
           .lineHeight(70)
           .fontColor(Color.White)
           .decoration({
-            type:TextDecorationType.Underline,
-            color:Color.Yellow
+            type: TextDecorationType.Underline,
+            color: Color.Yellow
           })
 
       }
       .backgroundColor(Color.Blue)
       .width('100%')
 
-      Row(){
+      Row() {
         Text('都市')
           .width(120)
           .height(60)
@@ -76,26 +84,26 @@ struct Index {
       .height(200)
       .backgroundColor(Color.Orange)
 
-      Row(){
+      Row() {
         Text('aaaaaaaaaabbbbbbbbbbbbbbbcccccccccccccc')
           .fontSize(45)
           .lineHeight(70)
           .fontColor(Color.White)
           .decoration({
-            type:TextDecorationType.Underline,
-            color:Color.Yellow
+            type: TextDecorationType.Underline,
+            color: Color.Yellow
           })
           .maxLines(2)
-          .textOverflow({overflow: TextOverflow.Ellipsis})
+          .textOverflow({ overflow: TextOverflow.Ellipsis })
 
       }
       .backgroundColor(Color.Blue)
       .width('100%')
     }
     .height('100%')
-    .onClick(()=>{
+    .onClick(() => {
       router.pushUrl({
-        url:"pages/State_Styles"
+        url: "pages/State_Styles"
       })
     })
   }
