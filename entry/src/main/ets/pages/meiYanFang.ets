@@ -18,7 +18,7 @@ struct meiYF{
         .fontSize(20)
         .textIndent(40)
         .lineHeight(30)
-      Text('影视:《胭脂扣》、《英雄本色s3》、《豪门夜宴》')
+      Text('影视:《胭脂扣》、《英雄本色3》、《豪门夜宴》')
         .fontSize(20)
         .textIndent(40)
         .lineHeight(30)
