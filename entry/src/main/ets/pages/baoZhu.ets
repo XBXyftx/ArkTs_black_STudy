@@ -12,12 +12,11 @@ struct baoZhu{
         .fontSize(20)
         .fontStyle(FontStyle.Italic)
         .textIndent(80)
-      Text(){
-        Span('爆竹声中一岁除,')
+
+        Text('爆竹声中一岁除,')
           .fontSize(26)
           .lineHeight(40)
-        Span('阵阵')
-      }
+        Text('阵阵')
     }
     .width('100%')
     .alignItems(HorizontalAlign.Center)
