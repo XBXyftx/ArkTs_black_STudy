@@ -1,12 +1,20 @@
 import router from '@ohos.router'
 
-console.log('--华为Mate新品上市--')
-let name: string[] = ['Mate60 RS', 'Mate60 Pro', 'Mate60', 'Mate60 Pro+']
-let cost: number[] = [11999, 7399, 6899, 8999]
-for (let i = 0; i < 4; i++) {
-  console.log()
+console.log('--职工信息--')
+let name:string='小谷'
+let age:string|number=20
+enum gender{
+  man='男',
+  woman='女'
 }
-
+enum type{
+  shiXi='实习生',
+  zhengShi='正式工'
+}
+console.log('姓名：'+name)
+console.log('性别：'+gender.man)
+console.log('年龄：'+age)
+console.log('类型：'+type.shiXi)
 
 @Entry
 @Component
