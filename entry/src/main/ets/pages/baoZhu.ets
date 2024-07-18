@@ -1,6 +1,14 @@
+interface text{
+  text:string
+  translate:string
+}
 @Entry
 @Component
 struct baoZhu {
+  @State text1:text[]=[
+    {text:'爆竹声中一岁除,',translate:'阵阵轰鸣的爆竹声中，旧的一年已经过去'}
+  ]
+
   build() {
     //根组件
     Column() {
@@ -16,7 +24,7 @@ struct baoZhu {
       Text('爆竹声中一岁除,')
         .fontSize(26)
         .lineHeight(40)
-      Text('阵阵')
+      Text('阵阵轰鸣的爆竹声中，旧的一年已经过去')
     }
     .width('100%')
     .alignItems(HorizontalAlign.Center)
