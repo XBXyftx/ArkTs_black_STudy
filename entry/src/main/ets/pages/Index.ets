@@ -20,6 +20,14 @@ interface people{
   booldType:bloodType
   daiBiaoZuo:string[]
 }
+let person:people={
+  name:'梅艳芳',
+  gender:gender.woman,
+  age:60,
+  height:168,
+  booldType:bloodType.b,
+  daiBiaoZuo:['《夕阳之歌》','《孤身走我路》','《似水流年》']
+}
 
 @Entry
 @Component
