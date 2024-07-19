@@ -1,6 +1,17 @@
+interface a{
+  img:Resource
+  text:string
+}
+
 @Entry
 @Component
 struct yingSJ{
+  @State a:a[]=[
+    {img:$rawfile('b1.png'),text:'历史那些事'},
+    {img:$rawfile('b1.png'),text:'历史那些事'},
+    {img:$rawfile('b1.png'),text:'历史那些事'},
+    {img:$rawfile('b1.png'),text:'历史那些事'},
+  ]
   build() {
     //根组件
     Column(){
