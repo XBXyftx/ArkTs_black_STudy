@@ -1,18 +1,24 @@
 import router from '@ohos.router'
 
 
-let name:string[]=['宫廷玉液酒','群英荟萃']
-let yuanJia:number[]=[180,80]
-let xianJia:number[]=[]
-let zheKouZhi:number=6
-for (let i=0;i<2;i++){
-  let a = 0
-  a = yuanJia[i]*zheKouZhi/10
-  xianJia.push(a)
+enum gender{
+  man='男',
+  woman='女'
 }
-console.log(`-----今日特惠${zheKouZhi}折-----`)
-for (let i=0;i<2;i++){
-  console.log(`${name[i]}原价:￥${yuanJia[i]},现价:${xianJia[i]}`)
+enum bloodType{
+  a='A',
+  b='B',
+  ab='AB',
+  o='O',
+  other='其他'
+}
+interface people{
+  name:string
+  gender:gender
+  age:number
+  height:number|string
+  booldType:bloodType
+  daiBiaoZuo:string[]
 }
 
 @Entry
