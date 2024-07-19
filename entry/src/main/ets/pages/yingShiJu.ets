@@ -7,10 +7,10 @@ interface a{
 @Component
 struct yingSJ{
   @State a:a[]=[
-    {img:$rawfile('b1.png'),text:'历史那些事'},
-    {img:$rawfile('b1.png'),text:'历史那些事'},
-    {img:$rawfile('b1.png'),text:'历史那些事'},
-    {img:$rawfile('b1.png'),text:'历史那些事'},
+    {img:$rawfile('b1.png'),text:'历史那些事3'},
+    {img:$rawfile('b2.png'),text:'我们的国家公园'},
+    {img:$rawfile('b3.png'),text:'生灵奇旅'},
+    {img:$rawfile('b4.png'),text:'何似中国'},
   ]
   build() {
     //根组件
@@ -20,6 +20,8 @@ struct yingSJ{
         .fontColor('#52a8dd')
         .fontWeight(FontWeight.Bold)
         .lineHeight(50)
+
+
       Row({space:10}){
         Image($rawfile('b1.png'))
           .width(150)
