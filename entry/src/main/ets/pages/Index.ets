@@ -1,20 +1,19 @@
 import router from '@ohos.router'
 
-console.log('--职工信息--')
-let name:string='小谷'
-let age:string|number=20
-enum gender{
-  man='男',
-  woman='女'
+
+let name:string[]=['宫廷玉液酒','群英荟萃']
+let yuanJia:number[]=[180,80]
+let xianJia:number[]=[]
+let zheKouZhi:number=6
+for (let i=0;i<2;i++){
+  let a = 0
+  a = yuanJia[i]*zheKouZhi/10
+  xianJia.push(a)
 }
-enum type{
-  shiXi='实习生',
-  zhengShi='正式工'
+console.log(`-----今日特惠${zheKouZhi}折-----`)
+for (let i=0;i<2;i++){
+  console.log(`${name[i]}原价:￥${yuanJia[i]},现价:${xianJia[i]}`)
 }
-console.log('姓名：'+name)
-console.log('性别：'+gender.man)
-console.log('年龄：'+age)
-console.log('类型：'+type.shiXi)
 
 @Entry
 @Component
