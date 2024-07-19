@@ -21,7 +21,9 @@ struct yingSJ{
         .fontWeight(FontWeight.Bold)
         .lineHeight(50)
 
+      ForEach(this.a,(item:a,index:number)=>{
 
+      })
       Row({space:10}){
         Image($rawfile('b1.png'))
           .width(150)
