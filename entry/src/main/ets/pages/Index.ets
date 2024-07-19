@@ -34,7 +34,9 @@ function p(person:people){
   console.log('年龄:'+person.age)
   console.log('身高:'+person.height)
   console.log('血型:'+person.bloodType)
+  console.log('作品:'+person.daiBiaoZuo.toString())
 }
+p(person)
 @Entry
 @Component
 struct Index {
