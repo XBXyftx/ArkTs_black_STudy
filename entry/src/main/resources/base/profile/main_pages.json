@@ -39,6 +39,7 @@
     "pages/Foreach",
     "pages/baoZhu",
     "pages/yingShiJu",
-    "pages/weiXinFaXians"
+    "pages/weiXinFaXian",
+    "pages/taoBaoShangPinLieBiao"
   ]
 }
