@@ -1,3 +1,8 @@
+interface faXian{
+  img:Resource
+  text:string
+}
+
 @Entry
 @Component
 struct weiXinFX{
