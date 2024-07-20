@@ -11,7 +11,7 @@ struct weiXinFX{
     {img:$rawfile('sph.svg'),text:'视频号'},
     {img:$rawfile('sys.svg'),text:'扫一扫'},
     {img:$rawfile('xcx.svg'),text:'小程序'},
-    {img:$rawfile('pyq.svg'),text:'朋友圈'},
+    {img:$rawfile('yyy.svg'),text:'摇一摇'},
   ]
 
   build() {
