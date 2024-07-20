@@ -41,6 +41,7 @@
     "pages/yingShiJu",
     "pages/weiXinFaXian",
     "pages/taoBaoShangPinLieBiao",
-    "pages/huoDongTuiJian"
+    "pages/huoDongTuiJian",
+    "pages/chatGTP"
   ]
 }
