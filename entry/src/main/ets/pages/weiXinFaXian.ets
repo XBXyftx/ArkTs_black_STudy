@@ -30,7 +30,7 @@ struct weiXinFX{
       })
 
     }
-    .width('100%s')
+    .width('100%')
     .padding({top:20,left:20,right:20})
   }
 }
