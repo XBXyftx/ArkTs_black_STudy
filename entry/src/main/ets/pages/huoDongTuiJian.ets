@@ -18,11 +18,17 @@ struct huoDongTJ {
     //根组件
     Column({space:20}) {
       ForEach(this.hdtj, (item: hdtj, index: number) => {
-        Row(){
+        Row({space:10}){
           Image(item.img)
-            .width(20)
-            .height(20)
+            .width(40)
+            .height(40)
             .borderRadius(10)
+          Text(item.name)
+            .fontSize(20)
+          Text('>')
+            .layoutWeight(1)
+            .textAlign(TextAlign.End)
+            .fontColor('#999')
         }
         .width('100%')
       })
