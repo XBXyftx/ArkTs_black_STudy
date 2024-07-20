@@ -16,10 +16,18 @@ struct huoDongTJ {
 
   build() {
     //根组件
-    Column() {
+    Column({space:20}) {
       ForEach(this.hdtj, (item: hdtj, index: number) => {
-
+        Row(){
+          Image(item.img)
+            .width(20)
+            .height(20)
+            .borderRadius(10)
+        }
+        .width('100%')
       })
     }
+    .width('100%')
+    .padding(20)
   }
 }
