@@ -42,6 +42,7 @@
     "pages/weiXinFaXian",
     "pages/taoBaoShangPinLieBiao",
     "pages/huoDongTuiJian",
-    "pages/chatGTP"
+    "pages/chatGTP",
+    "pages/dianYingGouPiao"
   ]
 }
