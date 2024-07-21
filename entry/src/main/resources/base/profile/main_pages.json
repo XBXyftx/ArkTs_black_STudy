@@ -43,6 +43,7 @@
     "pages/taoBaoShangPinLieBiao",
     "pages/huoDongTuiJian",
     "pages/chatGTP",
-    "pages/dianYingGouPiao"
+    "pages/dianYingGouPiao",
+    "pages/dingDanCaoZuo"
   ]
 }
