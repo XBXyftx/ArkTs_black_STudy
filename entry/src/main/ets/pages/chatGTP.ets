@@ -64,6 +64,7 @@ struct chatGPT{
         .padding({right:10,left:10})
         .justifyContent(FlexAlign.Start)
       }
+      .alignItems(HorizontalAlign.Center)
 
     }
   }
