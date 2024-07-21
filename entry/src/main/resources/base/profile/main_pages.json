@@ -44,6 +44,7 @@
     "pages/huoDongTuiJian",
     "pages/chatGTP",
     "pages/dianYingGouPiao",
-    "pages/dingDanCaoZuo"
+    "pages/dingDanCaoZuo",
+    "pages/wyyGeXingTuiJian"
   ]
 }
