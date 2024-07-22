@@ -34,10 +34,18 @@ struct reMenZT{
 
 
       //下半区
-      Flex({wrap:FlexWrap.Wrap,justifyContent:FlexAlign.SpaceBetween}){
-
+      Flex({wrap:FlexWrap.Wrap}){
+        ForEach(this.text,(item:string,index)=>{
+          Text(item)
+            .fontColor(Color.Orange)
+            .margin(5)
+            .fontSize(16)
+            .padding(5)
+            .border({width:1,radius:4,color:Color.Orange})
+        })
       }
       .width('100%')
+      .layoutWeight(1)
 
     }
     .padding(16)
