@@ -24,9 +24,20 @@ struct jingDongSPY{
           // .translate({x:'-100%',y:'-100%'})
           .zIndex(1)
       }
-      Row(){
 
+      //中央商品详情区域
+      Column({space:15}){
+        Row(){
+          Text('￥109.00')
+            .fontSize(26)
+            .fontColor('#ea403e')
+          Text('(到手价109=平台价129-促销20)')
+            .fontColor('#e15040')
+        }
+        .width('100%')
+        .alignItems(VerticalAlign.Bottom)
       }
+      .width('100%')
       .padding(10)
       .backgroundColor('#fafafa')
       .borderRadius(10)
