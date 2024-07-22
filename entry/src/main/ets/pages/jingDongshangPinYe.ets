@@ -36,11 +36,37 @@ struct jingDongSPY{
         }
         .width('100%')
         .alignItems(VerticalAlign.Bottom)
+
+        Text('朵娜贝拉（Dorabella）比利时进口巧克力礼盒装情人节38三八妇女节礼物【爱的旅行-红】12粒巧克力礼盒')
+          .lineHeight(22)
       }
       .width('100%')
       .padding(10)
       .backgroundColor('#fafafa')
       .borderRadius(10)
+
+      //底部区域
+      Column(){
+        Row({space:10}){
+          Text('加入购物车')
+            .borderRadius(10)
+            .fontColor('#fff')
+            .padding(10)
+            .backgroundColor('#f2c046')
+          Text('立即购买')
+            .borderRadius(10)
+            .fontColor('#fff')
+            .padding(10)
+            .backgroundColor('#e15243')
+        }
+        .width('100%')
+        .padding(10)
+        .backgroundColor('#fafafa')
+        .justifyContent(FlexAlign.End)
+      }
+      .width('100%')
+      .justifyContent(FlexAlign.End)
+      .layoutWeight(1)
 
     }
     .width('100%')
