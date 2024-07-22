@@ -45,6 +45,7 @@
     "pages/chatGTP",
     "pages/dianYingGouPiao",
     "pages/dingDanCaoZuo",
-    "pages/wyyGeXingTuiJian"
+    "pages/wyyGeXingTuiJian",
+    "pages/reMenZhuanTi"
   ]
 }
