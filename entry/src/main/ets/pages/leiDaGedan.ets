@@ -2,16 +2,37 @@ interface leiDa {
   img: Resource
   num: number
   text: string
+  str: string
 }
 
 @Entry
 @Component
 struct leiDGD {
   @State wyy: leiDa[] = [
-    { img: $rawfile('music1.png'), num: 7, text: '私人订制' },
-    { img: $rawfile('music2.png'), num: 5, text: '猜你喜欢' },
-    { img: $rawfile('music3.png'), num: 4, text: '朋友喜欢' },
-    { img: $rawfile('music4.png'), num: 5, text: '其他发现' },
+    {
+      img: $rawfile('music1.png'),
+      num: 7,
+      text: '私人订制',
+      str: '体会梅艳芳《夕阳之歌》的大气磅礴'
+    },
+    {
+      img: $rawfile('music2.png'),
+      num: 5,
+      text: '猜你喜欢',
+      str: '体会梅艳芳《夕阳之歌》的大气磅礴'
+    },
+    {
+      img: $rawfile('music3.png'),
+      num: 4,
+      text: '朋友喜欢',
+      str: '体会梅艳芳《夕阳之歌》的大气磅礴'
+    },
+    {
+      img: $rawfile('music4.png'),
+      num: 5,
+      text: '其他发现',
+      str: '体会梅艳芳《夕阳之歌》的大气磅礴'
+    },
   ]
 
   build() {
@@ -50,6 +71,8 @@ struct leiDGD {
                 .backgroundColor('#50a8ed')
                 .borderRadius({ bottomLeft: 6 })
                 .padding(1)
+              Text(item.str)
+                .width(145)
             }
           }
 
@@ -57,7 +80,7 @@ struct leiDGD {
 
       }
       .width('100%')
-      .di
+      .listDirection(Axis.Horizontal)
     }
     .width('100%')
     .padding(16)
