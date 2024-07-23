@@ -28,18 +28,34 @@ struct beiJing{
           .width(155)
           .margin(6)
           .scale({x:1,y:1})
+          .stateStyles({
+            pressed:{.scale({x:1.1,y:1.1})}
+          })
+          .animation({duration:500})
         Image($rawfile('bj2.png'))
           .width(155)
           .margin(6)
           .scale({x:1,y:1})
+          .stateStyles({
+            pressed:{.scale({x:1.1,y:1.1})}
+          })
+          .animation({duration:500})
         Image($rawfile('bj3.png'))
           .width(155)
           .margin(6)
           .scale({x:1,y:1})
+          .stateStyles({
+            pressed:{.scale({x:1.1,y:1.1})}
+          })
+          .animation({duration:500})
         Image($rawfile('bj4.png'))
           .width(155)
           .margin(6)
           .scale({x:1,y:1})
+          .stateStyles({
+            pressed:{.scale({x:1.1,y:1.1})}
+          })
+          .animation({duration:500})
       }
     }
     .padding(10)
