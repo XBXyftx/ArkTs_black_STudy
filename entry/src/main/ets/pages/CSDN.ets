@@ -41,6 +41,114 @@ struct CSDN{
         }
 
 
+
+        ListItem() {
+          Column({ space: 5 }) {
+            Text('1.鸿蒙系统概述（HarmonyOS）')
+              .fontSize(23)
+              .fontColor(Color.Red)
+            Text('它是一款面向万物互联时代的.全新的分布式操作系统...')
+              .fontSize(18)
+            Text('2024-03-02  2.0万次阅读')
+              .fontSize(12)
+              .fontColor(Color.Gray)
+          }
+          .alignItems(HorizontalAlign.Start)
+        }
+
+
+        ListItem() {
+          Column({ space: 5 }) {
+            Text('1.鸿蒙系统概述（HarmonyOS）')
+              .fontSize(23)
+              .fontColor(Color.Red)
+            Text('它是一款面向万物互联时代的.全新的分布式操作系统...')
+              .fontSize(18)
+            Text('2024-03-02  2.0万次阅读')
+              .fontSize(12)
+              .fontColor(Color.Gray)
+          }
+          .alignItems(HorizontalAlign.Start)
+        }
+        ListItem() {
+          Column({ space: 5 }) {
+            Text('1.鸿蒙系统概述（HarmonyOS）')
+              .fontSize(23)
+              .fontColor(Color.Red)
+            Text('它是一款面向万物互联时代的.全新的分布式操作系统...')
+              .fontSize(18)
+            Text('2024-03-02  2.0万次阅读')
+              .fontSize(12)
+              .fontColor(Color.Gray)
+          }
+          .alignItems(HorizontalAlign.Start)
+        }
+
+
+        ListItem() {
+          Column({ space: 5 }) {
+            Text('1.鸿蒙系统概述（HarmonyOS）')
+              .fontSize(23)
+              .fontColor(Color.Red)
+            Text('它是一款面向万物互联时代的.全新的分布式操作系统...')
+              .fontSize(18)
+            Text('2024-03-02  2.0万次阅读')
+              .fontSize(12)
+              .fontColor(Color.Gray)
+          }
+          .alignItems(HorizontalAlign.Start)
+        }
+
+
+        ListItem() {
+          Column({ space: 5 }) {
+            Text('1.鸿蒙系统概述（HarmonyOS）')
+              .fontSize(23)
+              .fontColor(Color.Red)
+            Text('它是一款面向万物互联时代的.全新的分布式操作系统...')
+              .fontSize(18)
+            Text('2024-03-02  2.0万次阅读')
+              .fontSize(12)
+              .fontColor(Color.Gray)
+          }
+          .alignItems(HorizontalAlign.Start)
+        }
+
+
+        ListItem() {
+          Column({ space: 5 }) {
+            Text('1.鸿蒙系统概述（HarmonyOS）')
+              .fontSize(23)
+              .fontColor(Color.Red)
+            Text('它是一款面向万物互联时代的.全新的分布式操作系统...')
+              .fontSize(18)
+            Text('2024-03-02  2.0万次阅读')
+              .fontSize(12)
+              .fontColor(Color.Gray)
+          }
+          .alignItems(HorizontalAlign.Start)
+        }
+
+
+        ListItem() {
+          Column({ space: 5 }) {
+            Text('1.鸿蒙系统概述（HarmonyOS）')
+              .fontSize(23)
+              .fontColor(Color.Red)
+            Text('它是一款面向万物互联时代的.全新的分布式操作系统...')
+              .fontSize(18)
+            Text('2024-03-02  2.0万次阅读')
+              .fontSize(12)
+              .fontColor(Color.Gray)
+          }
+          .alignItems(HorizontalAlign.Start)
+        }
+
+
+
+
+
+
       }
       .layoutWeight(1)
       .padding(10)
