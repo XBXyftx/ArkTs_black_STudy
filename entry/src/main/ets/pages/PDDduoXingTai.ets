@@ -1,0 +1,70 @@
+@Entry
+@Component
+struct PDDDXT{
+  build() {
+    Column(){
+      Stack(){
+        Image($rawfile('sunlight.svg'))
+          .width(300)
+          .zIndex(0)
+          .stateStyles({
+            normal:{
+              .rotate({angle:0})
+            },
+            pressed:{
+              .rotate({angle:360})
+            }
+          })
+          .animation({
+            duration:10000,
+            curve:Curve.Linear
+          })
+        Column({space:10}){
+          Image($rawfile('huodong.png'))
+            .width(190)
+            .zIndex(1)
+          Text(){
+            Span('当天有效')
+              .fontSize(20)
+              .fontWeight(FontWeight.Bolder)
+              .fontColor(Color.White)
+            Span('请尽快使用')
+              .fontSize(20)
+              .fontWeight(FontWeight.Bolder)
+              .fontColor('#ebc08e')
+          }
+
+            Text('立即使用')
+              .fontColor(Color.Brown)
+              .fontSize(22)
+              .fontWeight(800)
+              .padding({top:10,bottom:10,left:20,right:20})
+              .linearGradient({
+                direction:GradientDirection.Bottom,
+                colors:[['#ffffdd5d',0],['#fffef2e0',1]]
+              })
+              .borderRadius(14)
+              .scale({x:1,y:1})
+              .stateStyles({
+                pressed:{
+                  .scale({x:1.2,y:1.2})
+                }
+              })
+              .animation({
+                duration:500
+              })
+
+
+        }
+        .height('100%')
+
+      }
+      .width('100%')
+      .padding(10)
+      .backgroundColor('#da5f52')
+      .height(320)
+    }
+    .width('100%')
+    .height('100%')
+  }
+}
