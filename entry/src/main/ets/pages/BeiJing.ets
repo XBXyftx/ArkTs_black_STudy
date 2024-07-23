@@ -1,0 +1,50 @@
+@Entry
+@Component
+struct beiJing{
+  build() {
+    //根组件
+    Column({space:20}){
+      Row(){
+        Text('<')
+          .fontSize(20)
+        Text('发表')
+          .fontSize(20)
+          .padding(8)
+          .backgroundColor('#60d074')
+          .borderRadius(8)
+          .fontColor(Color.White)
+      }
+      .width('100%')
+      .justifyContent(FlexAlign.SpaceBetween)
+
+      Text('这一刻的想法...')
+        .fontSize(14)
+        .fontColor('#bbb')
+        .width('100%')
+        .padding(10)
+
+      Flex({wrap:FlexWrap.Wrap}){
+        Image($rawfile('bj1.png'))
+          .width(155)
+          .margin(6)
+          .scale({x:1,y:1})
+        Image($rawfile('bj2.png'))
+          .width(155)
+          .margin(6)
+          .scale({x:1,y:1})
+        Image($rawfile('bj3.png'))
+          .width(155)
+          .margin(6)
+          .scale({x:1,y:1})
+        Image($rawfile('bj4.png'))
+          .width(155)
+          .margin(6)
+          .scale({x:1,y:1})
+      }
+    }
+    .padding(10)
+    .width('100%')
+    .height('100%')
+    .alignItems(HorizontalAlign.Center)
+  }
+}
