@@ -25,8 +25,9 @@ struct CSDN{
 
       List({space:10}){
 
-        ListItem(){
-          Column({space:5}){
+
+        ListItem() {
+          Column({ space: 5 }) {
             Text('1.鸿蒙系统概述（HarmonyOS）')
               .fontSize(23)
               .fontColor(Color.Red)
@@ -37,8 +38,8 @@ struct CSDN{
               .fontColor(Color.Gray)
           }
           .alignItems(HorizontalAlign.Start)
-
         }
+
 
       }
       .layoutWeight(1)
