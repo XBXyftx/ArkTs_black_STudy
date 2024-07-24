@@ -23,21 +23,21 @@ struct jingDongShouJLB {
     },
     {
       img: $rawfile('jd3.jpg'),
-      title: 'Apple iPhone15 128G 支持5G',
-      prise: 7199,
-      name: 'Apple'
+      title: '华为旗舰手机 Mate60 Pro',
+      prise: 7699,
+      name: '华为'
     },
     {
       img: $rawfile('jd4.jpg'),
-      title: 'Apple iPhone15 128G 支持5G',
-      prise: 7199,
-      name: 'Apple'
+      title: '一加 Ace3 16+512 5G手机',
+      prise: 2999,
+      name: '一加'
     },
     {
       img: $rawfile('jd5.jpg'),
-      title: 'Apple iPhone15 128G 支持5G',
-      prise: 7199,
-      name: 'Apple'
+      title: 'IQOO Neo9 第二代骁龙8旗舰芯',
+      prise: 2299,
+      name: 'IQOO'
     },
 
   ]
