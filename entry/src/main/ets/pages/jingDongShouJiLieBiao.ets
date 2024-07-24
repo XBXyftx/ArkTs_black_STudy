@@ -14,7 +14,32 @@ struct jingDongShouJLB {
       title: 'Apple iPhone15 128G 支持5G',
       prise: 7199,
       name: 'Apple'
-    }
+    },
+    {
+      img: $rawfile('jd2.jpg'),
+      title: 'Apple iPhone15 128G 支持5G',
+      prise: 7199,
+      name: 'Apple'
+    },
+    {
+      img: $rawfile('jd3.jpg'),
+      title: 'Apple iPhone15 128G 支持5G',
+      prise: 7199,
+      name: 'Apple'
+    },
+    {
+      img: $rawfile('jd4.jpg'),
+      title: 'Apple iPhone15 128G 支持5G',
+      prise: 7199,
+      name: 'Apple'
+    },
+    {
+      img: $rawfile('jd5.jpg'),
+      title: 'Apple iPhone15 128G 支持5G',
+      prise: 7199,
+      name: 'Apple'
+    },
+
   ]
 
   build() {
@@ -24,7 +49,7 @@ struct jingDongShouJLB {
 
         ForEach(this.LBNR, (item: lieBiaoNeiRong, index) => {
           ListItem() {
-            Row() {
+            Row({space:5}) {
               Image(item.img)
                 .width(150)
                 .height(150)
@@ -34,7 +59,7 @@ struct jingDongShouJLB {
                   .fontSize(20)
                   .width(160)
                   .margin({ bottom: 10, top: 10 })
-                Column() {
+                Column({space:5}) {
                   Text(`￥${item.prise}`)
                     .fontSize(20)
                     .fontColor(Color.Red)
