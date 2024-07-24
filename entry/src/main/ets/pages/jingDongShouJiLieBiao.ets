@@ -17,9 +17,9 @@ struct jingDongShouJLB {
     },
     {
       img: $rawfile('jd2.jpg'),
-      title: 'Apple iPhone15 128G 支持5G',
-      prise: 7199,
-      name: 'Apple'
+      title: '华为mate60 银 12GB+512GB',
+      prise: 6699,
+      name: '华为'
     },
     {
       img: $rawfile('jd3.jpg'),
