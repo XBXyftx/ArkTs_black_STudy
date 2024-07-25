@@ -29,16 +29,21 @@ struct shengShiXinXIPJ{
           .border({width:1,color:Color.Orange,radius:10})
           .fontSize(20)
           .onClick(()=>{
-            this.gender='男'
+            this.gender='帅哥'
           })
         Text('女')
           .padding(5)
           .border({width:1,color:Color.Orange,radius:10})
           .fontSize(20)
           .onClick(()=>{
-            this.gender='女'
+            this.gender='美女'
           })
       }
+
+      Text(`我是一名来自${this.text}的${this.gender}`)
+        .width('100%')
+        .textAlign(TextAlign.Center)
+        .fontSize(20)
 
     }
     .padding(10)
