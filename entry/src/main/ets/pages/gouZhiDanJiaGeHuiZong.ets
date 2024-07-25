@@ -45,8 +45,9 @@ struct gouZhiDanJGHZ{
         .onClick(()=>{
           let sum:number=0
           for (let i=0;i<this.SP.length;i++){
-
+            sum+=this.SP[i].price*this.SP[i].gouZhiLiang
           }
+          this.text=sum.toString()+'元'
         })
 
       Text(this.text)
