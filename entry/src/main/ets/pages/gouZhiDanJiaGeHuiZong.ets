@@ -24,8 +24,15 @@ struct gouZhiDanJGHZ{
         Row({space:10}){
           Image(item.img)
             .width(150)
-          Column(){
-
+          Column({space:20}){
+            Text(`${item.name}100%橙汁`)
+            Text(){
+              Span('价格：')
+              Span(`￥${item.price}`)
+                .fontColor(Color.Red)
+                .fontWeight(700)
+            }
+            Text(`购置量：${item.gouZhiLiang}瓶`)
           }
           .alignItems(HorizontalAlign.Start)
           .layoutWeight(1)
