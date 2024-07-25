@@ -39,7 +39,6 @@ struct shengShiXinXIPJ{
             this.gender='女'
           })
       }
-      }
 
     }
     .padding(10)
