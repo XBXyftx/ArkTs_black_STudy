@@ -14,15 +14,21 @@ struct gouZhiDanJGHZ{
     {img:$rawfile('drink3.png'),name:'盒马',price:16.5,gouZhiLiang:3},
   ]
   build() {
-    Column({space:10}){
+    Column({space:20}){
       Text('| 您的饮品购置单已送达')
         .fontSize(20)
         .width('100%')
         .fontColor(Color.Orange)
       
       ForEach(this.SP,(item:shangPin,index)=>{
-        Row(){
+        Row({space:10}){
+          Image(item.img)
+            .width(150)
+          Column(){
 
+          }
+          .alignItems(HorizontalAlign.Start)
+          .layoutWeight(1)
         }
         .width('100%')
       })
