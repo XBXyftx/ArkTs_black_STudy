@@ -17,6 +17,9 @@ struct shangPinYuLan {
             .onClick(()=>{
               this.image=item
             })
+            .stateStyles({
+              pressed:{.border({width:1,color:Color.Orange,radius:20})}
+            })
         })
       }
       .justifyContent(FlexAlign.SpaceBetween)
