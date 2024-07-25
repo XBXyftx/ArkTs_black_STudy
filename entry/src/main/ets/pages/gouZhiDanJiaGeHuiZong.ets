@@ -13,6 +13,7 @@ struct gouZhiDanJGHZ{
     {img:$rawfile('drink2.png'),name:'汇源',price:15.8,gouZhiLiang:4},
     {img:$rawfile('drink3.png'),name:'盒马',price:16.5,gouZhiLiang:3},
   ]
+  @State text:string='待结算···'
   build() {
     Column({space:20}){
       Text('| 您的饮品购置单已送达')
@@ -39,6 +40,17 @@ struct gouZhiDanJGHZ{
         }
         .width('100%')
       })
+
+      Button('确认并结算')
+        .onClick(()=>{
+          let sum:number=0
+          for (let i=0;i<this.SP.length;i++){
+
+          }
+        })
+
+      Text(this.text)
+        .fontColor(Color.Red)
 
     }
     .padding(10)
