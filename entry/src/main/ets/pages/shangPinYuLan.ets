@@ -6,7 +6,8 @@ struct shangPinYuLan {
   @State image:Resource=$rawfile('phone2.jpg')
   build() {
     Column() {
-      Image()
+      Image(this.image)
+        .width('100%')
     }
     .width('100%')
     .padding(10)
