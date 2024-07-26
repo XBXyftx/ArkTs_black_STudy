@@ -19,12 +19,17 @@ struct menPHS {
         Row(){
           Button({type:ButtonType.Circle}){Text('-').fontColor('#fff')}.width(30).height(30)
           .onClick(()=>{
-            this.puTong++
+            if (this.puTong<=0) {
+
+            }else {
+              this.puTong--
+            }
+
           })
           Text(this.puTong.toString()).fontColor('#fff').width(30).textAlign(TextAlign.Center)
           Button({type:ButtonType.Circle}){Text('+').fontColor('#fff')}.width(30).height(30)
           .onClick(()=>{
-            this.puTong--
+            this.puTong++
           })
         }
       }.width('100%').padding(10).backgroundColor('#e96a3b').borderRadius(10)
