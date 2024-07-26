@@ -56,7 +56,6 @@
     "pages/gouZhiDanJiaGeHuiZong",
     "pages/zhangDanJieSuan",
     "pages/menPiaoHuiSuan",
-    "pages/jiShuZhanShuZu",
-    "pages/箭头函数"
+    "pages/jiShuZhanShuZu"
   ]
 }
