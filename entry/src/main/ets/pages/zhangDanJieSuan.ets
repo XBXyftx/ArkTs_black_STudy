@@ -62,7 +62,7 @@ struct zhangDJS {
             this.sum+=this.item[i].price*this.item[i].num
           }
           for (let i=0;i<3;i++){
-            this.vipsum+=this.item[i].price*this.item[i].num*0.8-1.5
+            this.vipsum+=(this.item[i].price*this.item[i].num*0.8)-1.5*this.item[i].num
           }
         })
     }.padding(20)
