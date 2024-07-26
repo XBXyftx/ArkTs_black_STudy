@@ -1,7 +1,9 @@
+
+
 let technologies:string[]=['IOS','Javascript','Java','Android','Harmony','Python','Golang']
 console.log('原数组是：',technologies)
 // 移除数组中第一个元素：IOS
-
+technologies.pop()
 
 // 给数组尾部追加一元素：C++
 
