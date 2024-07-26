@@ -2,11 +2,10 @@
 @Component
 struct menPHS {
 
-  @State sum:number=0
   @State puTong:number=0
   @State xueSheng:number=0
   @State laoRenErTong:number=0
-
+  @State sum:number=0
   build() {
     Column({space:20}){
       Row({space:10}){
@@ -23,6 +22,7 @@ struct menPHS {
 
             }else {
               this.puTong--
+              this.sum-=60
             }
 
           })
@@ -30,6 +30,7 @@ struct menPHS {
           Button({type:ButtonType.Circle}){Text('+').fontColor('#fff')}.width(30).height(30)
           .onClick(()=>{
             this.puTong++
+            this.sum+=60
           })
         }
       }.width('100%').padding(10).backgroundColor('#e96a3b').borderRadius(10)
@@ -43,8 +44,21 @@ struct menPHS {
         }.alignItems(HorizontalAlign.Start)
         Row(){
           Button({type:ButtonType.Circle}){Text('-').fontColor('#fff')}.width(30).height(30)
-          Text('0').fontColor('#fff').width(30).textAlign(TextAlign.Center)
+          .onClick(()=>{
+            if (this.xueSheng<=0) {
+
+            }else {
+              this.xueSheng--
+              this.sum-=30
+            }
+
+          })
+          Text(this.xueSheng.toString()).fontColor('#fff').width(30).textAlign(TextAlign.Center)
           Button({type:ButtonType.Circle}){Text('+').fontColor('#fff')}.width(30).height(30)
+          .onClick(()=>{
+            this.xueSheng++
+            this.sum+=30
+          })
         }
       }.width('100%').padding(10).backgroundColor('#e96a3b').borderRadius(10)
 
@@ -57,12 +71,25 @@ struct menPHS {
         }.alignItems(HorizontalAlign.Start)
         Row(){
           Button({type:ButtonType.Circle}){Text('-').fontColor('#fff')}.width(30).height(30)
-          Text('0').fontColor('#fff').width(30).textAlign(TextAlign.Center)
+          .onClick(()=>{
+            if (this.laoRenErTong<=0) {
+
+            }else {
+              this.laoRenErTong--
+              this.sum-=10
+            }
+
+          })
+          Text(this.laoRenErTong.toString()).fontColor('#fff').width(30).textAlign(TextAlign.Center)
           Button({type:ButtonType.Circle}){Text('+').fontColor('#fff')}.width(30).height(30)
+          .onClick(()=>{
+            this.laoRenErTong++
+            this.sum+=10
+          })
         }
       }.width('100%').padding(10).backgroundColor('#e96a3b').borderRadius(10)
 
-      Text('所需支付：0元').backgroundColor('#54afe4').padding(10).borderRadius(6).fontColor('#fff').fontSize(20).width('60%').textAlign(TextAlign.Center)
+      Text(`所需支付：${this.sum}元`).backgroundColor('#54afe4').padding(10).borderRadius(6).fontColor('#fff').fontSize(20).width('60%').textAlign(TextAlign.Center)
     }.padding(10)
   }
 }
