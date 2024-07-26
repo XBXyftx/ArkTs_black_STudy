@@ -59,7 +59,10 @@ struct zhangDJS {
       Button('结算账单')
         .onClick(()=>{
           for (let i=0;i<3;i++){
-            this.sum+=this.item1
+            this.sum+=this.item[i].price*this.item[i].num
+          }
+          for (let i=0;i<3;i++){
+            this.vipsum+=this.item[i].price*this.item[i].num*0.8-1.5
           }
         })
     }.padding(20)
