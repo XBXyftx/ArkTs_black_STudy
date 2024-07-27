@@ -8,29 +8,36 @@
 @Entry
 @Component
 struct shenTiZhiShuCeLiang {
+  @State shenGao:number=0
+  @State tizhong:number=0
+  @State BMI:number=0
+  @State ceShiPingJia:string='---'
+
+
   build() {
     Row() {
       Column() {
         Text('BMI身体质量指数测试').fontWeight(FontWeight.Bold).fontSize(20)
         Row() {
           Text('体重（kg）：')
-          Text('0')
+          Text(this.tizhong.toString())
         }.width('50%').justifyContent(FlexAlign.SpaceBetween).margin(10)
 
         Row() {
           Text('身高（m）：')
-          Text('0')
+          Text(this.shenGao.toString())
         }.width('50%').justifyContent(FlexAlign.SpaceBetween).margin(10)
 
         Row() {
           Text('BMI：')
-          Text('0').fontColor(Color.Red)
+          Text(this.BMI.toString()).fontColor(Color.Red)
         }.width('50%').justifyContent(FlexAlign.SpaceBetween).margin(10)
 
         Row() {
           Text('测试评价：')
-          Text('---').fontColor(Color.Red)
+          Text(this.ceShiPingJia).fontColor(Color.Red)
         }.width('50%').justifyContent(FlexAlign.SpaceBetween).margin(10)
+
         Button('计算BMI')
       }
       .width('100%')
