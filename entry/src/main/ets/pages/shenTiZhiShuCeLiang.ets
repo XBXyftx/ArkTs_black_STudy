@@ -39,6 +39,14 @@ struct shenTiZhiShuCeLiang {
         }.width('50%').justifyContent(FlexAlign.SpaceBetween).margin(10)
 
         Button('计算BMI')
+          .onClick(()=>{
+            this.BMI=this.tizhong/(this.shenGao*this.shenGao)
+            if (this.BMI<18.5) {
+              this.ceShiPingJia='偏瘦'
+            }else if(this.BMI>=18.5&&this.BMI<24){
+              this.ceShiPingJia='标准'
+            }
+          })
       }
       .width('100%')
       .padding(20)
