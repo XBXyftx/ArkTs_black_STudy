@@ -41,7 +41,11 @@ let yYue: yinYue[] = [
     during: 167
   }
 ]
-
+function convertSecondsToMinutes(seconds: number): string {
+  const minutes = Math.floor(seconds / 60);
+  const remainingSeconds = seconds % 60;
+  return `${minutes}分钟${remainingSeconds}秒`;
+}
 
 @Entry
 @Component
@@ -50,12 +54,22 @@ struct YinYueShouCang {
     Column() {
       Text('收藏列表').fontSize(20)
         .margin({ bottom: 20 })
-      List() {
+      List({space:10}) {
         ForEach(yYue, (item: yinYue, i) => {
           ListItem() {
             Column({ space: 10 }) {
-              Text()
+              Text(item.name)
+                .fontSize(22)
+              Row(){
+                Text(item.singer)
+                Text(convertSecondsToMinutes(item.during))
+              }
+              .width('100%')
+              .justifyContent(FlexAlign.SpaceBetween)
+              Divider()
+                .color(Color.Red)
             }
+            .alignItems(HorizontalAlign.Start)
             .width('100%')
             .padding({ left: 10, right: 10 })
           }
