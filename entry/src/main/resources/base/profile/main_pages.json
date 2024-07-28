@@ -58,6 +58,7 @@
     "pages/menPiaoHuiSuan",
     "pages/jiShuZhanShuZu",
     "pages/nianLingDuanRenShuTongJi",
-    "pages/shenTiZhiShuCeLiang"
+    "pages/shenTiZhiShuCeLiang",
+    "pages/youJianLieBiao"
   ]
 }
