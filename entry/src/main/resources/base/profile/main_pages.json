@@ -59,6 +59,7 @@
     "pages/jiShuZhanShuZu",
     "pages/nianLingDuanRenShuTongJi",
     "pages/shenTiZhiShuCeLiang",
-    "pages/youJianLieBiao"
+    "pages/youJianLieBiao",
+    "pages/ForEachHengHuaLieBiao"
   ]
 }
