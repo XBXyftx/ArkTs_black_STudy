@@ -53,9 +53,48 @@ let dY:dianYing[]=[
 
 @Entry
 @Component
-struct Index {
+struct dianYingLieBiao {
   build() {
+    Column(){
+      List({space:10}){
+        ForEach(dY,(item:dianYing,i:number)=>{
+          ListItem(){
+            Row({space:15}){
+              Image(item.imgurl)
+                .width(80)
+                .height(120)
+              Column({space:10}){
+                Text(item.name)
+                  .fontSize(20)
+                  .fontWeight(FontWeight.Bold)
+                Row({space:5}){
+                  Text('观众评分')
+                    .fontSize(14)
+                    .fontColor('#7a7d81')
+                  Text(item.grade.toString())
+                    .fontSize(14)
+                    .fontColor('#f4b54f')
+                }
+                Text(`主演:${item.actors.toString()}`)
+                  .fontSize(14)
+                  .fontColor('#7a7d81')
+                Text(`${item.nation}  |  ${item.runtime}`)
+                  .fontSize(14)
+                  .fontColor('#7a7d81')
+              }
+              .alignItems(HorizontalAlign.Start)
+            }
+            .width('100%')
+          }
 
+        })
+      }
+      .width('100%')
+      .height('100%')
+    }
+    .width('100%')
+    .height('100%')
+    .padding(20)
   }
 }
 
