@@ -1,6 +1,6 @@
 @Entry
 @Component
-struct Index {
+struct youJianLieBiao {
   @State emailItem1:emailItemInfo={
     name:'华为开发者联盟',
     date:'16:30',
@@ -15,6 +15,7 @@ struct Index {
     content:'尊敬的 张三先生：您好！您于2024年03月10日在中国铁路客户服务中心网站...',
     status:true
   }
+  @State flag:boolean=true
 
   build() {
     Column({space:10}) {
@@ -31,13 +32,24 @@ struct Index {
           Row(){
             Text(this.emailItem1.name).fontSize(18).width(150)
             Text(this.emailItem1.date).fontSize(12)
-            Text('未读').fontSize(12)
+            if (this.flag){
+              Text('未读').fontSize(12)
+            }else {
+              Text('已读').fontSize(12).fontWeight(FontWeight.Bold).fontColor('#76d875')
+            }
+
           }
           .width('100%')
           .justifyContent(FlexAlign.SpaceBetween)
           Text(this.emailItem1.title).fontSize(12)
           Text(this.emailItem1.content).fontSize(12)
-          Button('标为已读').fontSize(12).width(52).height(20).padding(0).margin({top:10})
+          if (this.flag){
+            Button('标为已读').fontSize(12).width(52).height(20).padding(0).margin({top:10})
+              .onClick(()=>{
+                this.flag=false
+              })
+          }
+
         }.layoutWeight(1).alignItems(HorizontalAlign.Start)
       }
       .width('100%')
